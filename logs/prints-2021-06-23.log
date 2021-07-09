@@ -1,0 +1,7 @@
+17:21:24.370 [TestNG-tests-3] INFO  resources.base - Password Entered Successfully
+17:21:38.812 [TestNG-tests-3] INFO  resources.base - Email Address Entered Successfully
+17:21:38.935 [TestNG-tests-3] INFO  resources.base - Password Entered Successfully
+18:08:50.637 [TestNG-tests-1] INFO  resources.base - Driver Initialized
+18:09:37.994 [TestNG-tests-2] INFO  resources.base - Navigation Bar is displayed
+18:09:41.447 [TestNG-tests-1] INFO  resources.base - Successfully landed homepage
+18:09:44.371 [TestNG-tests-1] INFO  resources.base - Driver closed

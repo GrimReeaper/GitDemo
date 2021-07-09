@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 51.93 s <<< FAILURE! - in TestSuite
+Academy.validatePageTitle.basePageNavigation  Time elapsed: 0.672 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...> but was:<...123>
+	at Academy.validatePageTitle.basePageNavigation(validatePageTitle.java:41)
+
+Academy.HomePage.basePageNavigation[shivamnagpal67@gmail.com, Shivam129nagpal](1)  Time elapsed: 11.8 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span>...</span> is not clickable at point (1335, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'L-2180', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\SHIVAM~1.NAG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50519}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 88c53d150ed5d9c477330665dfce6403
+	at Academy.HomePage.basePageNavigation(HomePage.java:39)
+
