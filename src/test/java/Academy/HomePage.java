@@ -44,6 +44,7 @@ public class HomePage extends base{
 		loP.enterPassword().sendKeys(Password);
 		Log.info("Password Entered Successfully");
 		loP.logInBtn().click();
+		System.out.println("Welcome to Home Page");
 	}
 	
 	@DataProvider
