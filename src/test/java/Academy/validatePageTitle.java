@@ -40,6 +40,12 @@ public class validatePageTitle extends base{
 		
 		Assert.assertEquals(actualTitle, expectedTitle);
 		Log.info("Successfully verified the text");
+		System.out.println("Github");
+		System.out.println("Github");
+
+		
+		System.out.println("Github");
+
 				
 		
 	}
